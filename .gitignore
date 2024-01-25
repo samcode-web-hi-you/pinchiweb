@@ -1,0 +1,24 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore logs and cache files
+/log/
+/var/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore user-specific files
+.idea/
+.vscode/
+
+# Ignore server-specific files
+.sftp-config.json
+
+# Ignore Node.js dependencies
+node_modules/
